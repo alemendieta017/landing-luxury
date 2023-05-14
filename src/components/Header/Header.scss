@@ -1,0 +1,17 @@
+Header {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: grey;
+  background-blend-mode: multiply;
+
+  .logo {
+    width: 150px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  Header {
+    background-position-y: -100px;
+  }
+}
