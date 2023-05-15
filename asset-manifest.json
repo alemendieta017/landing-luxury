@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/luxury-landing/static/css/main.1c38db16.css",
-    "main.js": "/luxury-landing/static/js/main.6b59c70a.js",
-    "static/js/787.413ee080.chunk.js": "/luxury-landing/static/js/787.413ee080.chunk.js",
-    "static/media/bootstrap-icons.woff?": "/luxury-landing/static/media/bootstrap-icons.4753c5ba57962b4d7bf8.woff",
-    "static/media/bootstrap-icons.woff2?": "/luxury-landing/static/media/bootstrap-icons.6d63d0501e5ed7b79dab.woff2",
-    "static/media/remax_luxury_logo.png": "/luxury-landing/static/media/remax_luxury_logo.9fb452c0e943ee49a365.png",
-    "index.html": "/luxury-landing/index.html",
-    "main.1c38db16.css.map": "/luxury-landing/static/css/main.1c38db16.css.map",
-    "main.6b59c70a.js.map": "/luxury-landing/static/js/main.6b59c70a.js.map",
-    "787.413ee080.chunk.js.map": "/luxury-landing/static/js/787.413ee080.chunk.js.map"
+    "main.css": "/landing-luxury/static/css/main.e124375d.css",
+    "main.js": "/landing-luxury/static/js/main.1f5ca09a.js",
+    "static/js/787.413ee080.chunk.js": "/landing-luxury/static/js/787.413ee080.chunk.js",
+    "static/media/bootstrap-icons.woff?": "/landing-luxury/static/media/bootstrap-icons.4753c5ba57962b4d7bf8.woff",
+    "static/media/bootstrap-icons.woff2?": "/landing-luxury/static/media/bootstrap-icons.6d63d0501e5ed7b79dab.woff2",
+    "static/media/remax_luxury_logo.png": "/landing-luxury/static/media/remax_luxury_logo.9fb452c0e943ee49a365.png",
+    "index.html": "/landing-luxury/index.html",
+    "main.e124375d.css.map": "/landing-luxury/static/css/main.e124375d.css.map",
+    "main.1f5ca09a.js.map": "/landing-luxury/static/js/main.1f5ca09a.js.map",
+    "787.413ee080.chunk.js.map": "/landing-luxury/static/js/787.413ee080.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1c38db16.css",
-    "static/js/main.6b59c70a.js"
+    "static/css/main.e124375d.css",
+    "static/js/main.1f5ca09a.js"
   ]
 }
