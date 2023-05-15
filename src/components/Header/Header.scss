@@ -1,4 +1,5 @@
 Header {
+  padding-top: 60px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -12,6 +13,6 @@ Header {
 
 @media screen and (min-width: 768px) {
   Header {
-    background-position-y: -100px;
+    background-position-y: 30px;
   }
 }

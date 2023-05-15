@@ -1,5 +1,6 @@
 import React from 'react'
 import './Header.scss'
+import Nav from '../Nav/Nav'
 
 const Header = () => {
   const HEADER_IMG_URL =
@@ -8,25 +9,28 @@ const Header = () => {
     'https://www.remax.com.py/Common/images/2019/remax_balloon.png'
   return (
     <header
-      className="py-5"
+      className="min-vh-100 bg-image-full d-flex align-items-center"
       style={{
         backgroundImage: 'url( ' + HEADER_IMG_URL + ' )',
       }}
     >
+      <Nav />
       {/* <!-- Header - set the background image for the header in style.backgroundImg--> */}
-      <div className="container px-5">
+      <div className="container pt-5">
         <img
           className="logo img-fluid rounded-circle mb-4"
           src={REMAX_LOGO_URL}
           alt="..."
         />
-        <h1 className="text-white text-leading fs-3 fw-bolder">
-          Conviertete en Agente Inmobiliario
+        <h1 className="text-white display-1">
+          Conviértete en Agente Inmobiliario
         </h1>
-        <p className="text-white-50 mb-0">
+        <p className="lead text-white mb-0">
           Forma parte del equipo de RE/MAX Luxury Paraguay!
         </p>
-        <button className="btn btn-primary my-4">Saber mas</button>
+        <a className="btn btn-lightBlue my-4" href="#form-section">
+          Inscribirme
+        </a>
       </div>
     </header>
   )

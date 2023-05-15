@@ -1,13 +1,13 @@
 import React from 'react'
+import './Nav.scss'
+import remaxLogo from '../../assets/remax_luxury_logo.png'
 
 const Nav = () => {
-  const REMAX_LOGO_URL =
-    'https://www.remax.com.py/Common/images/2019/remax_balloon.png'
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
       <div className="container">
         <a className="navbar-brand" href="#!">
-          <img src={REMAX_LOGO_URL} alt="RE/MAX" width="50" height="50" />
+          <img className="logo" src={remaxLogo} alt="RE/MAX" />
         </a>
         <button
           className="navbar-toggler"
@@ -20,7 +20,7 @@ const Nav = () => {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+        <div className="navbar-collapse collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <li className="nav-item">
               <a className="nav-link active" aria-current="page" href="#!">

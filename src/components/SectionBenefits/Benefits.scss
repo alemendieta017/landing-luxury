@@ -1,0 +1,12 @@
+.col:first-child > i {
+  color: #e0d64a;
+}
+
+.col:last-child > i {
+  color: red;
+}
+
+i {
+  font-size: 120px;
+  color: gray;
+}
