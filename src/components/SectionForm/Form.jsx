@@ -2,12 +2,13 @@ import React from 'react'
 import axios from 'axios'
 import { Formik, Form, Field, ErrorMessage } from 'formik'
 import * as Yup from 'yup'
+import { API_URL } from '../../config/config'
 
 const FormSection = () => {
   async function submitForm(values, formik) {
     try {
       const { email, firstName, lastName, phone } = values
-      const url = 'http://localhost:3000/chimp'
+      const url = API_URL + '/chimp'
       const payload = {
         email_address: email,
         merge_fields: {
